@@ -13,6 +13,11 @@
       width: 1070px;
       margin: 0 auto;
     }
+    .header .logo {
+      width: 100px; height: 100px;
+      background-color: yellow;
+      margin: 0 auto;
+    }
     .header .gnb ul {
       display: flex;
       justify-content: space-between;
@@ -41,12 +46,20 @@
       border: 1px solid black;
     }
 
+    .footer {
+      width: 1070px; height: 200px;
+      background-color: #ccc;
+      margin: 30px auto;
+    }
+
   </style>
 
 </head>
 <body>
 
   <header class="header">
+
+    <div class="logo"></div>
     <nav class="gnb">
       <ul>
         <li>gnb01</li>
@@ -69,6 +82,10 @@
     </section>
 
   </div>
+
+  <footer class="footer">
+    &copy; copyright
+  </footer>
   
 </body>
 </html>
