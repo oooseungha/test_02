@@ -31,6 +31,16 @@
       background-color: #ccc;
     }
 
+    .wrap section {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+    .wrap section div {
+      height: 200px;
+      border: 1px solid black;
+    }
+
   </style>
 
 </head>
@@ -49,7 +59,15 @@
   </header>
 
   <div class="wrap">
-    content 영역
+    <h1 class="visual_main">visual_main</h1>
+
+    <section class="best">
+      <div>best01</div>
+      <div>best02</div>
+      <div>best03</div>
+      <div>best04</div>
+    </section>
+
   </div>
   
 </body>
